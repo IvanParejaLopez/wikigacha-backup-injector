@@ -281,7 +281,7 @@ class WikiGachaEditorApp:
         file_path_output = filedialog.asksaveasfilename(
             defaultextension=".wgbak",
             filetypes=[("WikiGacha Backup", "*.wgbak")],
-            initialfile="wikigacha_backup_modificado.wgbak",
+            initialfile="wikigacha_backup_modified.wgbak",
         )
 
         if not file_path_output:
